@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Job</title>
-    <link rel="stylesheet" href="C:\Users\laris\Desktop\Project1-ComIT\Project1-ComIT\CSS\styles.css">
+    <title>Search Job - The easiest way to find your new job</title>
+    <link rel="stylesheet" href="..\CSS\styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/e1c7d8642c.js" crossorigin="anonymous"></script>
 
@@ -14,9 +14,11 @@
         <header>
             <nav>
                 <div class="nav-container">
-                    <img id="logo" src="C:\Users\laris\Desktop\Project1-ComIT\Project1-ComIT\IMG\logo.png" alt="SearchJob">
+                    <a href="index.html">
+                        <img id="logo" src="..\IMG\logo.png" alt="SearchJob">
+                    </a>
                     <ul>
-                        <li><a href="#">Job Opening</a></li>
+                        <li><a href="..\HTML\jobopening.html">Job Opening</a></li>
                         <li><a href="#">Job Posting</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
@@ -39,6 +41,240 @@
                 </div>
             </div>
         </header>
+        <main id="lastjobs-container" class="wrapper">
+            <h1>Latest job post</h1>
+            <ul>
+                <li>
+                    <a href="#" class="clickarea">
+                        <div class="company-box">
+                        <img src="..\IMG\google.png">
+                        <div class="company-info">
+                            <h3>Developer</h3>
+                            <p>Google</p>
+                        </div>
+                </div>
+                <div class="locality">
+                    <i class=" fas fa-map-marker-alt"></i>
+                    <p>Mountain View, California, USA</p>
+                </div>
+                <div class="job-type">
+                    <span class="onsite">On site</span>
+                </div>
+                </a>
+                </li>
+
+                <li>
+                    <a href="#" class="clickarea">
+                        <div class="company-box">
+                        <img src="..\IMG\ibm.png">
+                        <div class="company-info">
+                            <h3>Back End Developer</h3>
+                            <p>IBM</p>
+                        </div>
+                </div>
+                <div class="locality">
+                    <i class=" fas fa-map-marker-alt"></i>
+                    <p>Armonk, New York, USA</p>
+                </div>
+                <div class="job-type">
+                    <span class="homeoffice">Home Office</span>
+                </div>
+                </a>
+                </li>
+
+                <li>
+                    <a href="#" class="clickarea">
+                        <div class="company-box">
+                        <img src="..\IMG\linkedin.png">
+                        <div class="company-info">
+                            <h3>Front End Developer</h3>
+                            <p>Linkedin</p>
+                        </div>
+                </div>
+                <div class="locality">
+                    <i class=" fas fa-map-marker-alt"></i>
+                    <p>Sunnyvale, California, USA</p>
+                </div>
+                <div class="job-type">
+                    <span class="onsite">On site</span>
+                </div>
+                </a>
+                </li>
+
+                <li>
+                    <a href="#" class="clickarea">
+                        <div class="company-box">
+                        <img src="..\IMG\facebook.png">
+                        <div class="company-info">
+                            <h3>Full Stack Developer</h3>
+                            <p>Facebook</p>
+                        </div>
+                </div>
+                <div class="locality">
+                    <i class=" fas fa-map-marker-alt"></i>
+                    <p>Menlo Park, California, USA</p>
+                </div>
+                <div class="job-type">
+                    <span class="homeoffice">Home Office</span>
+                </div>
+                </a>
+                </li>
+            </ul>
+            <div class="btnjobs-container">
+                <a href="..\HTML\jobopening.html" class="btn-jobs">See more jobs</a>
+            </div>
+        </main>
+        <section id="sendjobs-container">
+            <div id="sendjobs-inner" class="wrapper">
+                <h2>Post a job that will be seen by thousands of candidates</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis ex dolor, 
+                    a pulvinar nibh cursus vel. Curabitur pellentesque eu diam at semper. 
+                    Curabitur vitae imperdiet libero, a ultricies dui. Aliquam venenatis 
+                    lectus nec risus consectetur tristique. Integer in lorem eu nunc auctor 
+                    suscipit vel sed enim. Morbi pretium lacinia erat nec dapibus. 
+                    Duis sollicitudin dolor vel mauris faucibus, in pellentesque dui 
+                    pulvinar. Ut bibendum fermentum lacus vitae pharetra. Nulla elementum 
+                    enim vel consequat tempus. Nam nec tellus vitae tortor pulvinar blandit.</p>
+                    <a href="#" class="light-btn">Job posting</a>
+            </div>
+        </section>
+        <section id="status-container" class="wrapper">
+           <h2 class="title-center">JobSearch Statistics</h2>
+           <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+               Sed lobortis ex dolor, a pulvinar nibh cursus vel.</p>
+               <div>
+                        <div class="status-box">
+                            <span class="status-qtd">100</span>
+                            <p class="status-text">Open positions</p>
+                       </div>
+                       <div class="status-box">
+                            <span class="status-qtd">250</span>
+                            <p class="status-text">Successful candidates</p>
+                        </div>
+                        <div class="status-box">
+                            <span class="status-qtd">65</span>
+                            <p class="status-text">Companies involved</p>
+                        </div>
+                        <div class="status-box">
+                            <span class="status-qtd">475</span>
+                            <p class="status-text">Applicant</p>
+                        </div>
+                   </div>
+               </div>
+        </section>
+        <section id="testimony-container">
+            <div class="wrapper">
+                <h2>See what the applicants say</h2>
+                <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Sed lobortis ex dolor, a pulvinar nibh cursus vel. Curabitur pellentesque eu diam at semper</p>
+                <div class="testimony-box">
+                    <p class="testimony-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <img src="..\IMG\avatar1.png">
+                        <p class="testimony-name">John</p>
+                </div>
+                <div class="testimony-box">
+                    <p class="testimony-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <img src="..\IMG\avatar2.png">
+                        <p class="testimony-name">Mary</p>
+                </div>
+                <div class="testimony-box">
+                    <p class="testimony-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <img src="..\IMG\avatar3.png">
+                        <p class="testimony-name">Alex</p>
+                </div>
+                <div class="testimony-box">
+                    <p class="testimony-msg">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <img src="..\IMG\avatar4.png">
+                        <p class="testimony-name">Rachel</p>
+                </div>
+            </div>
+        </section>
+        <section id="blog-container" class="wrapper">
+            <h2 class="title-center">Latest articles from our blog</h2>
+            <p class="p-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lobortis ex dolor, 
+            a pulvinar nibh cursus vel. Curabitur pellentesque eu diam at semper. Curabitur vitae imperdiet libero, 
+            a ultricies dui. Aliquam venenatis lectus nec risus consectetur tristique.</p>
+            <div class="article-box">
+                <img src="..\IMG\blog1.jpg">
+                <h4><a href="#">Article Number One</a></h4>
+                <p class="article-date">November 1, 2020 | 10 Comments</p>
+                <p class="article-resume">Lorem ipsum dolor sit amet</p>
+                <a href="#" class="article-btn light-btn">Read post</a>
+            </div>
+            <div class="article-box">
+                <img src="..\IMG\blog2.jpg">
+                <h4><a href="#">Article Number Two</a></h4>
+                <p class="article-date">October 31, 2020 | 20 Comments</p>
+                <p class="article-resume">Lorem ipsum dolor sit amet</p>
+                <a href="#" class="article-btn light-btn">Read post</a>
+            </div>
+            <div class="article-box">
+                <img src="..\IMG\blog3.jpg">
+                <h4><a href="#">Article Number Three</a></h4>
+                <p class="article-date">October 30, 2020 | 30 Comments</p>                    <p class="article-resume">Lorem ipsum dolor sit amet</p>
+                <a href="#" class="article-btn light-btn">Read post</a>
+        </section>
+        <footer>
+            <div class="wrapper">
+                <div class="footer-box">
+                    <div class="company-footer">
+                        <a href="..\HTML\index.html">
+                            <img src="..\IMG\logo.png">
+                        </a>
+                        <h2>JobSearch</h2>
+                        <p>The easiest way to find your new job</p>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <div class="articles-footer">
+                        <h2>Recente articles</h2>
+                        <ul class="footer-list footer-article-list">
+                            <li>
+                                <a href="#">Article Number One</a>
+                                <span class="article-date">November 1, 2020</span>
+                            </li>
+                            <li>
+                                <a href="#">Article Number Two</a>
+                                <span class="article-date">October 31, 2020</span>
+                            </li>
+                            <li>
+                                <a href="#">Article Number Three</a>
+                                <span class="article-date">October 30, 2020</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h2>Find us on social media</h2>
+                        <ul class="footer-list">
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-facebook-square"></i>
+                                    <span>Facebook</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-instagram"></i>
+                                    <span>Instagram</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fab fa-linkedin"></i>
+                                    <span>Linkedin</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="wrapper">
+                        <p>Project by Carlos Horita - 2020</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
